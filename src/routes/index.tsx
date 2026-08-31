@@ -16,6 +16,13 @@ import shafi2 from "@/assets/shafi2.png.asset.json";
 import shafi3 from "@/assets/shafi3.png.asset.json";
 import logo from "@/assets/logo.png";
 
+import shafiImg1 from "@/assets/WhatsApp Image 2026-08-31 at 8.15.07 AM.jpeg";
+import shafiImg2 from "@/assets/WhatsApp Image 2026-08-31 at 8.15.08 AM.jpeg";
+import shafiImg3 from "@/assets/WhatsApp Image 2026-08-31 at 8.15.09 AM.jpeg";
+import shafiImg4 from "@/assets/WhatsApp Image 2026-08-31 at 8.15.11 AM.jpeg";
+import shafiImg5 from "@/assets/WhatsApp Image 2026-08-31 at 8.15.12 AM.jpeg";
+import shafiImg6 from "@/assets/WhatsApp Image 2026-08-31 at 8.15.13 AM.jpeg";
+
 // Import happy couple image assets
 import img1 from "@/assets/img-1.jpeg";
 import img2 from "@/assets/img-2.jpeg";
@@ -378,7 +385,7 @@ function Landing() {
               <div className="animate-float relative">
                 <div className="overflow-hidden rounded-3xl border-4 border-primary-foreground/45 shadow-card bg-card p-1">
                   <img
-                    src={shafi3.url}
+                    src={shafiImg6}
                     alt={c.aboutTitle}
                     className="w-full rounded-2xl object-cover"
                   />
@@ -472,7 +479,7 @@ function Landing() {
           <div className="grid items-center gap-10 md:grid-cols-[0.8fr_1.2fr] bg-card border border-border/60 p-8 rounded-3xl shadow-card-soft">
             <div className="relative group overflow-hidden rounded-2xl shadow-soft">
               <img
-                src={shafi1.url}
+                src={shafiImg1}
                 alt={c.aboutTitle}
                 className="mx-auto w-full max-w-xs object-cover rounded-2xl group-hover:scale-102 transition-transform duration-300"
               />
@@ -817,10 +824,10 @@ function Landing() {
             </div>
             
             <div className="grid gap-6 sm:grid-cols-3">
-              {[shafi1, shafi2, shafi3].map((img, i) => (
+              {[shafiImg1, shafiImg2, shafiImg3, shafiImg4, shafiImg5, shafiImg6].map((img, i) => (
                 <div key={i} className="group relative overflow-hidden rounded-2xl shadow-card-soft">
                   <img
-                    src={img.url}
+                    src={img}
                     alt={`${c.aboutTitle} ${i + 1}`}
                     loading="lazy"
                     className="h-76 w-full rounded-2xl object-cover object-top hover:scale-103 transition-transform duration-300"
