@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2C974" />
+      <stop offset="50%" stop-color="#FFEBAD" />
+      <stop offset="100%" stop-color="#C29A38" />
+    </linearGradient>
+    <linearGradient id="emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <!-- Background soft circle with deep emerald green gradient -->
+  <circle cx="50" cy="50" r="48" fill="url(#emerald)" />
+  <!-- Crescent shape in gold -->
+  <path d="M 64 28 A 24 24 0 1 0 64 72 A 20 20 0 1 1 64 28 Z" fill="url(#gold)" />
+  <!-- Heart at center/right -->
+  <path d="M 50 45 C 50 40, 45 37, 40 37 C 34 37, 30 42, 30 47 C 30 56, 50 67, 50 67 C 50 67, 70 56, 70 47 C 70 42, 66 37, 60 37 C 55 37, 50 40, 50 45 Z" fill="#EF4444" />
+</svg>
